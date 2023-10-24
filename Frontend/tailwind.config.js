@@ -8,6 +8,9 @@ module.exports = {
       fontWeight: {
         '8rem': '8rem',
       },
+      fontFamily:{
+        publicSans: ["Public Sans", "sans-serif"]
+      },
     },
   },
   plugins: [],

@@ -1,12 +1,10 @@
-import './App.css';
-import { NavbarDefault } from './components/NavbarComponent/Navbar';
-import Login from './pages/LoginPage/Login.js';
+import "./App.css";
+import Router from "./Routes";
 
 function App() {
   return (
     <div className="App">
-    {/* <NavbarDefault /> */}
-    <Login />
+      <Router />
     </div>
   );
 }
