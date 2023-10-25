@@ -217,7 +217,7 @@ const SignUp = () => {
               </Link>
               <button
                 type="submit"
-                className="px-8 text-white bg-[#32324b] rounded-lg text-[1rem] font-[500] py-4 font-publicSans"
+                className="px-8 text-white w-full md:w-1/4 bg-[#32324b] rounded-lg text-[1rem] font-[500] py-4 font-publicSans"
                 variant="gradient"
               >
                 SignUp

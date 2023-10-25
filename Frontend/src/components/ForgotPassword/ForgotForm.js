@@ -110,7 +110,7 @@ const ForgotForm = () => {
           <div className="flex justify-center md:justify-end ">
             <Button
               type="submit"
-              className="py-4 px-8 md:mt-5 text-white bg-gray-700 rounded-lg text-[1rem] font-[500] md:py-3 lg:px-10 font-publicSans"
+              className="py-4 px-8 md:mt-5 text-white w-full md:w-1/4 bg-gray-700 rounded-lg text-[1rem] font-[500] md:py-3 lg:px-10 font-publicSans"
               variant="gradient"
             >
               Submit

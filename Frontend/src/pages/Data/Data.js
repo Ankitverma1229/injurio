@@ -103,9 +103,7 @@ const Data = () => {
     }
   };
 
-  
 
-  // Call filterData when searchValue, injuredData, or dateFilter changes
   useEffect(() => {
     const filterData = () => {
       const filtered = injuredData.filter((item) => {
@@ -140,9 +138,9 @@ const Data = () => {
 
   return (
     <div>
-      <NavbarDefault />
+      <NavbarDefault className="" />
       <div>
-        <div className=" md:sticky bg-white top-0 py-1 w-[80%] mx-auto rounded-md">
+        <div className="md:sticky z-40 bg-white top-[6.3rem] lg:top-[5.3rem] py-1 w-[80%] mx-auto rounded-md">
           <h1 className="text-3xl text-[#21262C] my-5 text-center underline">
             Injured details
           </h1>

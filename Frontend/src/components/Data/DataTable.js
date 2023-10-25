@@ -23,7 +23,7 @@ console.log(injuriedDetails)
     <div>
       <div className="w-[80%] bg-white mx-auto rounded-md ">
         <Table className="rounded-md">
-          <Thead className="sticky top-[8.2rem] z-10 bg-white">
+          <Thead className="md:sticky top-[16rem] lg:top-[15rem] z-10 bg-white">
             <Tr className="bg-gray-400 rounded-md">
               <Th className=" font-medium text-center py-3 ">Index</Th>
               <Th className=" font-medium text-center py-3 ">Name</Th>

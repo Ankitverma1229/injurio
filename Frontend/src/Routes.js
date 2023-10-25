@@ -7,6 +7,7 @@ import NewInjuriy from "./pages/AddNewInjuriy/NewInjuriy";
 import Data from "./pages/Data/Data.js"
 import ForgotPassword from "./pages/Forgotpassword/ForgotPassword.js";
 import CreateNewPassword from "./pages/Forgotpassword/CreateNewPassword";
+import Contact from "./pages/ContactPage/Contact";
 const Router = () => {
 
   return (
@@ -22,6 +23,7 @@ const Router = () => {
         />
         <Route path="/add-new-injuriy" element={<NewInjuriy />} />
         <Route path="/data" element={<Data/>}/>
+        <Route path = "/contact" element={<Contact/>} />
       </Routes>
     </BrowserRouter>
   );
