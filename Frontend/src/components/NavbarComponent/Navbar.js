@@ -98,7 +98,7 @@ export function NavbarDefault() {
         variant="small"
         className=" p-1 font-normal h-8 hover:border-b-2 hover:border-b-lime-200"
       >
-        <Link to="#" className="flex items-center text-xl">
+        <Link to="/contact" className="flex items-center text-xl">
           Contact
         </Link>
       </Typography>
@@ -137,8 +137,8 @@ export function NavbarDefault() {
           </Button>
         )}
         {isOpenProfile && isLogin && (
-          <div className="user-profile-dropdown z-40 flex  flex-col items-center absolute top-[11rem] md:top-[4.5rem] right-[25%] md:right-[1%]  lg:right-[8%] xl:right-[4%] 2xl:right-[5%] w-[10rem] rounded-md bg-white border border-gray-200 group-hover:block">
-            <ul className="menu-items flex flex-col gap-2 w-full py-1 text-center cursor-pointer z-10">
+          <div className="user-profile-dropdown  flex  flex-col items-center absolute top-[11rem] md:top-[4.5rem] right-[25%] md:right-[1%]  lg:right-[8%] xl:right-[4%] 2xl:right-[5%] w-[10rem] rounded-md bg-white border border-gray-200 group-hover:block">
+            <ul className="menu-items flex flex-col gap-2 w-full py-1 text-center cursor-pointer ">
               <li
                 className="menu-item p-2 hover:bg-blue-300 text-black"
                 onClick={handleLogout}
@@ -191,7 +191,7 @@ export function NavbarDefault() {
         <div className="container mx-auto">
           {navList}
           {isLogin ? (
-            <span className="cursor-pointer">Hi, {userName}!</span>
+            <Button className="bg-white px-4 py-2 text-center text-black">Logout</Button>
           ) : (
             <Button
               variant="gradient"

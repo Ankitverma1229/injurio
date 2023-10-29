@@ -9,7 +9,7 @@ const SearchBar = ({ searchValue, setSearchValue, dateFilter, setDateFilter }) =
   ];
 
   return (
-    <div className="w-[80%] py-4 flex flex-col md:flex-row items-center justify-center gap-4 mx-auto md:sticky top-[5.2rem] bg-white rounded-md ">
+    <div className="w-[80%] py-4 flex flex-col md:flex-row items-center justify-center gap-4 mx-auto md:sticky top-[11.5rem] lg:top-[10.5rem] bg-white rounded-md ">
       <input
         type="text"
         className="h-10 px-2 rounded-md bg-gray-100 focus:outline-none"
